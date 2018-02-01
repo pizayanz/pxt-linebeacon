@@ -1,0 +1,25 @@
+{
+    "name": "linebeacon",
+    "version": "0.0.0",
+    "description": "LINE Beacon",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "bluetooth": "*"
+    },
+    "files": [
+        "enums.d.ts",
+        "shims.d.ts",
+        "LineBeaconService.cpp",
+        "LineBeaconService.h",
+        "extension.cpp",
+        "extension.ts",
+        "_locales/ja/linebeacon-strings.json",
+        "_locales/ja/linebeacon-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false,
+    "installedVersion": "file:../linebeacon"
+}

@@ -1,0 +1,9 @@
+{
+  "linebeacon": "Support for LINE Beacon.\n\nSupport for LINE Beacon.",
+  "linebeacon.start": "LINE Beacon Start",
+  "linebeacon.startWithDeviceMessage": "LINE Beacon Start with Device Message. maximum length of Device Message is 13 byte.",
+  "linebeacon.startWithDeviceMessage|param|hwid": "hex HWID, eg: \"0f0f0f0f0f\"",
+  "linebeacon.startWithDeviceMessage|param|message": "hex Device Message max 13byte, eg: \"1a2b3cff053e\"",
+  "linebeacon.start|param|hwid": "hex HWID, eg: \"0f0f0f0f0f\"",
+  "linebeacon.stop": "LINE Beacon Stop"
+}
