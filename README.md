@@ -7,9 +7,12 @@
 1. search 'https://github.com/pizayanz/pxt-linebeacon'
 1. You can get HWID at https://admin-official.line.me/beacon/register
 1. put block 'LINE Beacon start' and copy & paste your HWID (5 bytes hex). 
-1. change Project Settings 'No Pairing Required: Anyone can connect via Bluetooth.'
 
 first compile takes few minutes.
+
+## Sample
+
+![Sample](./docs/LINEBeaconSample.png "Sample")
 
 ## LINE Beacon for micro:bit Arduino version.
 

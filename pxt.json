@@ -4,8 +4,7 @@
     "description": "LINE Beacon",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "bluetooth": "*"
+        "core": "*"
     },
     "files": [
         "enums.d.ts",
@@ -21,5 +20,23 @@
         "test.ts"
     ],
     "public": false,
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 1,
+                    "open": 1,
+                    "pairing_mode": 0,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        },
+        "optionalConfig": {
+            "microbit-dal": {
+                "gatt_table_size": "0x700"
+            }
+        }
+    },    
     "installedVersion": "file:../linebeacon"
 }
