@@ -1,1 +1,1 @@
-// tests go here; this will not be compiled when this package is used as a library
+// tests need line beacon HWID and some smartphones which are installed line app and settings.
