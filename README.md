@@ -1,6 +1,7 @@
 # LINE Beacon for micro:bit
 
 ~ hint
+
 BETA - This package is still under development and subject to changes.
 
 ## Quick Start
