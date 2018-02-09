@@ -1,5 +1,8 @@
 # LINE Beacon for micro:bit
 
+~ hint
+BETA - This package is still under development and subject to changes.
+
 ## Quick Start
 
 1. Open JavaScript Blocks Editor. https://makecode.microbit.org/
