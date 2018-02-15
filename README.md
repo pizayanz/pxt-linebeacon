@@ -8,7 +8,9 @@ This package makes micro:bit to LINE Beacon.
 
 ## What's LINE Beacon
 
-Content that is delivered using BLE can be received on LINE. Users will be able to receive contents matching the place such as visiting coupons and storefront product information from LINE from the beacon installed in the store.
+LINE beacon lets deliver some content using BLE to LINE App on iOS/Android. 
+
+Users will be able to receive contents matching the place such as visiting coupons and storefront product information from LINE from the beacon installed in the store.
 
 https://developers.line.me/en/docs/messaging-api/using-beacons/
 
