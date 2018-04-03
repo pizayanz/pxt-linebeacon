@@ -14,7 +14,8 @@
         "extension.cpp",
         "extension.ts",
         "_locales/ja/linebeacon-strings.json",
-        "_locales/ja/linebeacon-jsdoc-strings.json"
+        "_locales/ja/linebeacon-jsdoc-strings.json",
+        "README.md"
     ],
     "testFiles": [
         "test.ts"
