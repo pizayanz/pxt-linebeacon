@@ -4,7 +4,8 @@
     "description": "LINE Beacon",
     "license": "MIT",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "bluetooth": "*"
     },
     "files": [
         "enums.d.ts",
