@@ -1,6 +1,6 @@
 {
     "name": "linebeacon",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "LINE Beacon",
     "license": "MIT",
     "dependencies": {
@@ -39,6 +39,6 @@
                 "gatt_table_size": "0x700"
             }
         }
-    },    
+    },
     "installedVersion": "file:../linebeacon"
 }
