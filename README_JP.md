@@ -2,6 +2,13 @@
 
 [English is here (英語はこちら)](README.md)
 
+## Version 依存
+
+2018.11 このパッケージは、現在、最新の JavaScript Blocks Editor に対応しておりません。
+
+旧式の JavaScript Blocks Editor でご利用ください。
+https://makecode.microbit.org/v0
+
 ## 使い方
 
 これは、micro:bit を LINE Beacon 化するパッケージです

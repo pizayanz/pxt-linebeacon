@@ -2,6 +2,13 @@
 
 [Japanese is here (日本語はこちら)](README_JP.md)
 
+## Version dependency
+
+2018.11 This package does not work well on latest JavaScript Blocks Editor, now.
+
+Please use old one.
+https://makecode.microbit.org/v0
+
 ## Usage
 
 This package makes micro:bit to LINE Beacon.
