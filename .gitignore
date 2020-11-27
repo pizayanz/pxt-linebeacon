@@ -6,6 +6,8 @@ pxt_modules
 *.db
 *.tgz
 
+package-lock.json
+
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
