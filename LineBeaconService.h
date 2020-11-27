@@ -1,6 +1,33 @@
 #ifndef LINEBEACON_SERVICE_H
 #define LINEBEACON_SERVICE_H
 
+#include "MicroBitConfig.h"
+#include "pxt.h"
+
+//================================================================
+#if MICROBIT_CODAL
+//================================================================
+
+#include "MicroBitBLEManager.h"
+#include "MicroBitBLEService.h"
+
+class LineBeaconService
+{
+    public:
+    LineBeaconService(BLEDevice &_ble);
+    void start(const uint8_t *hwid, const uint8_t *message, const uint8_t len);
+    void stop();
+    
+    private:
+
+    // Bluetooth stack we're running on.
+    BLEDevice &ble;
+};
+
+//================================================================
+#else // MICROBIT_CODAL
+//================================================================
+
 #include "ble/BLE.h"
 
 /**
@@ -36,5 +63,8 @@ class LineBeaconService
     };
 };
 
+//================================================================
+#endif // MICROBIT_CODAL
+//================================================================
 
 #endif

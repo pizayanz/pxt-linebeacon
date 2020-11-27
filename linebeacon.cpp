@@ -1,5 +1,8 @@
 #include "pxt.h"
 #include "LineBeaconService.h"
+#include <string.h>
+
+using namespace pxt;
 
 /**
  * Support for LINE Beacon.
@@ -17,8 +20,8 @@ namespace linebeacon {
             data[i/2] = (uint8_t) x;
         }
     }
-    
-    //%
+
+    //% 
     void startWithDeviceMessage(StringData *hwid, StringData *message) {
         if (NULL == _pService) {
             _pService = new LineBeaconService(*uBit.ble);
@@ -37,7 +40,7 @@ namespace linebeacon {
         _pService->start(hwidBytes, messageBytes, mlen);
     }
 
-    //%
+    //% 
     void stop() {        
         if (NULL != _pService) {
             _pService->stop();

@@ -15,11 +15,10 @@ namespace linebeacon {
     export function start(hwid: string) : void {
         if (hwid.length != 10) {
             // TODO: エラーの返し方がいまいちわからない。
-            // 16進数の10桁文字列出ない場合は、エラーを返したいのだけれど
+            // 16進数の10桁文字列でない場合は、エラーを返したいのだけれど
             // こっちはシミュレーター側。cpp でも、同じようなバリデーションが必要
         }
         startWithDeviceMessage(hwid, "00")
-        return
     }
 
     /**
@@ -37,7 +36,6 @@ namespace linebeacon {
         if (message.length > 13) {
             // TODO: エラーの返し方がいまいちわからない。
         }
-        return
     }
     
     /**
@@ -47,6 +45,6 @@ namespace linebeacon {
     //% shim=linebeacon::stop
     //% blockGap=8 weight=20
     export function stop(): void {
-        return
     }
+    
 }

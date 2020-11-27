@@ -1,7 +1,33 @@
 #include "MicroBitConfig.h"
+#include "LineBeaconService.h"
+
+//================================================================
+#if MICROBIT_CODAL
+//================================================================
+
+LineBeaconService::LineBeaconService(BLEDevice &_ble) :
+        ble(_ble)
+{
+
+}
+
+void LineBeaconService::start(const uint8_t *hwid, const uint8_t *message, const uint8_t len)
+{
+
+}
+
+void LineBeaconService::stop() 
+{
+}  
+
+
+//================================================================
+#else // MICROBIT_CODAL
+//================================================================
+
+
 #include "ble/UUID.h"
 
-#include "LineBeaconService.h"
 
 /**
   * Constructor.
@@ -44,3 +70,7 @@ void LineBeaconService::stop()
 {
     ble.gap().stopAdvertising();
 }  
+
+//================================================================
+#endif // MICROBIT_CODAL
+//================================================================

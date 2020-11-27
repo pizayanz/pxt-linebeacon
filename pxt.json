@@ -1,6 +1,6 @@
 {
     "name": "linebeacon",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "LINE Beacon",
     "license": "MIT",
     "dependencies": {
@@ -10,10 +10,10 @@
     "files": [
         "enums.d.ts",
         "shims.d.ts",
-        "LineBeaconService.cpp",
+        "linebeacon.ts",
+        "linebeacon.cpp",
         "LineBeaconService.h",
-        "extension.cpp",
-        "extension.ts",
+        "LineBeaconService.cpp",
         "_locales/ja/linebeacon-strings.json",
         "_locales/ja/linebeacon-jsdoc-strings.json",
         "README.md"
@@ -21,7 +21,7 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": false,
+    "public": true,
     "yotta": {
         "config": {
             "microbit-dal": {
@@ -36,6 +36,7 @@
         },
         "optionalConfig": {
             "microbit-dal": {
+                "stack_size": 1280,
                 "gatt_table_size": "0x700"
             }
         }
