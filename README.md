@@ -4,10 +4,14 @@
 
 ## Version dependency
 
-2018.11 This package does not work well on latest JavaScript Blocks Editor, now.
+### for micro:bit v2
 
-Please use old one.
-https://makecode.microbit.org/v0
+This linebeacon extension conflicts with bluetooth extension, so can't be used together.
+
+### for micro:bit v1
+
+This linebeacon extension works with bluetooth extension.
+
 
 ## Usage
 

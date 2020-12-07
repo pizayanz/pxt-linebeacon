@@ -4,10 +4,18 @@
 
 ## Version 依存
 
-2018.11 このパッケージは、現在、最新の JavaScript Blocks Editor に対応しておりません。
+### for micro:bit v2
 
-旧式の JavaScript Blocks Editor でご利用ください。
-https://makecode.microbit.org/v0
+この LINE Beacon 拡張機能は、Bluetooth 拡張機能と排他的なため、一緒に動作させることはできません。
+
+ご利用の場合は、プロジェクトから Bluetooth 拡張機能を取り除いてください。
+
+### for micro:bit v1
+
+この LINE Beacon 拡張機能を動かすためには、Bluetooth 拡張機能が必要です。
+
+ご利用の場合は、プロジェクトに Bluetooth 拡張機能を追加してください。
+
 
 ## 使い方
 
@@ -30,7 +38,24 @@ https://developers.line.me/ja/docs/messaging-api/using-beacons/
 
 ## Sample
 
-![Sample](./docs/LINEBeaconSample.png "Sample")
+```blocks
+input.onButtonPressed(Button.A, function () {
+    basic.showIcon(IconNames.Yes)
+    linebeacon.start("0f0f0f0f0f")
+})
+input.onButtonPressed(Button.AB, function () {
+    basic.showIcon(IconNames.Yes)
+    linebeacon.startWithDeviceMessage(
+    "0f0f0f0f0f",
+    "1a2b3c4d5e6f70809010a0b0c0"
+    )
+})
+input.onButtonPressed(Button.B, function () {
+    basic.showIcon(IconNames.No)
+    linebeacon.stop()
+})
+basic.showIcon(IconNames.Heart)
+```
 
 ## License
 
@@ -39,5 +64,6 @@ MIT
 ## Supported targets
 
 * for PXT/microbit
-(The metadata above is needed for package search.)
+
+<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
 
