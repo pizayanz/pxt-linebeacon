@@ -19,9 +19,9 @@
         "test.ts"
     ],
     "public": true,
-    "targetVersions": {
-        "target": "3.0.61"
-    },
+    "supportedTargets": [
+        "microbit"
+    ],
     "yotta": {
         "config": {
             "microbit-dal": {
