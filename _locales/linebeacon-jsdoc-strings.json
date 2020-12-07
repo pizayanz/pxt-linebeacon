@@ -5,5 +5,5 @@
   "linebeacon.startWithDeviceMessage|param|hwid": "hex HWID, eg: \"0f0f0f0f0f\"",
   "linebeacon.startWithDeviceMessage|param|message": "hex Device Message 1byte to 13byte, eg: \"1a2b3c4d5e6f70809010a0b0c0\"",
   "linebeacon.start|param|hwid": "hex HWID, eg: \"0f0f0f0f0f\"",
-  "linebeacon.stop": "LINE Beacon Stop"
+  "linebeacon.stop": "Stops advertising LINE Beacon end points"
 }

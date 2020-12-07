@@ -1,7 +1,0 @@
-{
-  "linebeacon.startWithDeviceMessage|block": "LINE Beacon start HWID is %hwid|with Device Message %message",
-  "linebeacon.start|block": "LINE Beacon start HWID is %hwid",
-  "linebeacon.stop|block": "LINE Beacon stop",
-  "linebeacon|block": "LINE Beacon",
-  "{id:category}Linebeacon": "Linebeacon"
-}

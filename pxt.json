@@ -4,19 +4,16 @@
     "description": "LINE Beacon",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "bluetooth": "*"
+        "core": "*"
     },
     "files": [
+        "README.md",
         "enums.d.ts",
         "shims.d.ts",
         "linebeacon.ts",
         "linebeacon.cpp",
-        "LineBeaconService.h",
         "LineBeaconService.cpp",
-        "_locales/ja/linebeacon-strings.json",
-        "_locales/ja/linebeacon-jsdoc-strings.json",
-        "README.md"
+        "LineBeaconService.h"
     ],
     "testFiles": [
         "test.ts"
@@ -26,7 +23,6 @@
         "config": {
             "microbit-dal": {
                 "bluetooth": {
-                    "enabled": 1,
                     "open": 1,
                     "pairing_mode": 0,
                     "whitelist": 0,
@@ -40,6 +36,5 @@
                 "gatt_table_size": "0x700"
             }
         }
-    },
-    "installedVersion": "file:../linebeacon"
+    }
 }
