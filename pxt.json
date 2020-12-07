@@ -1,6 +1,6 @@
 {
     "name": "linebeacon",
-    "version": "0.0.11",
+    "version": "0.0.12",
     "description": "LINE Beacon",
     "license": "MIT",
     "dependencies": {
