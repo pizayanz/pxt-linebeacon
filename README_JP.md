@@ -27,11 +27,11 @@ LINE Beacon とは、Android や iOS にインストールされた LINEアプ�
 
 店舗に LINE Beacon を置いておけば、それに近づいた方に、自動的に LINEでクーポンを送ったり、店舗情報を送ったりすることができます。
 
-https://developers.line.me/ja/docs/messaging-api/using-beacons/
+[https://developers.line.me/ja/docs/messaging-api/using-beacons/](https://developers.line.me/ja/docs/messaging-api/using-beacons/)
 
 ## Quick Start
 
-1. 最初に LINE に登録し、あなた専用の HWID を入手してください https://admin-official.line.me/beacon/register
+1. 最初に LINE に登録し、あなた専用の HWID を入手してください [https://admin-official.line.me/beacon/register](https://admin-official.line.me/beacon/register)
 1. このパッケージを micro:bit の Javascript Block Editor に追加し、'LINE Beacon start' ブロックを配置、入手した HWID (5 bytes hex) をそこにコピー＆ペーストするだけでご利用いただけます
 
 最初のコンパイルには数分かかるケースがあります
